@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    tools:context=".userDetails">
+
+
+    <TextView
+        android:id="@+id/user_print"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="USERNAME"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/phone_print"
+        android:layout_width="376dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/user_print"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:hint="Phone Number"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/mail_print"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/phone_print"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:hint="Email Id"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail_print"
+        android:layout_alignEnd="@id/mail_print"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:text="Close"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/btOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail_print"
+        android:layout_marginTop="141dp"
+        android:gravity="bottom"
+        android:layout_alignEnd="@id/mail_print"
+
+        android:text="Logout"
+
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+</RelativeLayout>

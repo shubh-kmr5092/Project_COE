@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Project_COE</string>
+    <string-array name="Hands_on_App">
+        <item>Calculator</item>
+        <item>Media List</item>
+        <item>Photo Album</item>
+        <item>Background Color</item>
+        <item>Set Wallpaper</item>
+        <item>Notification App</item>
+        <item>Broadcast App</item>
+        <item>Service App</item>
+
+    </string-array>
+
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+</resources>
